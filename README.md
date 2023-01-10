@@ -11,4 +11,4 @@
     - light_raw_time_pw, mod_raw_time_pw, vig_raw_time_pw, vervig_raw_time_pw
     
 - demographic
-  -BirthYear, BirthSex, Race
+  - BirthYear, BirthSex, Race
