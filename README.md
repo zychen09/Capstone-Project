@@ -10,4 +10,5 @@
   - non-bouted
     - light_raw_time_pw, mod_raw_time_pw, vig_raw_time_pw, vervig_raw_time_pw
     
-- BirthYear, BirthSex, Race
+- demographic
+  -BirthYear, BirthSex, Race
