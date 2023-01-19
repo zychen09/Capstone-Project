@@ -71,3 +71,19 @@ ggplot(test4_long, aes(x = type_variable, y = time_value, fill = type_variable))
   stat_summary(fun = "mean", geom = "point", color = "white")
 
 
+######################################################################################
+## LRCQ
+### match on `record_id` in test with LipidData 1st column
+### column variable described:
+###   Study ID: Column A
+###   Substudy Class: column B (which “year” of the PROSPER study did the visit occur in)
+###   Ss1: column C (1='Much more active', 2='Somewhat more active', 3='About the same', 4='Somewhat less active', 5='Much less active', 6='Not Applicable';)
+###   Ss2: D (1='Much more active', 2='Somewhat more active', 3='About the same', 4='Somewhat less active', 5='Much less active', 6='Not Applicable';)
+###   Ss3: E (1='Yes' 0='No')
+###   Ss4: F (1='Yes' 0='No')
+###   Ss5: G (1='Vigorous' 2='Moderate' 3='Low')
+###   Completed substudy: H (0='Incomplete' 1='Unverified' 2='Complete')
+###   Valid result: I (1='Yes' 0='No')
+###   Test completed date: J (mm/dd/yyyy)
+
+
