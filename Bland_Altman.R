@@ -145,7 +145,7 @@ g_vervig <- ggplot(ba_vervig3, aes(x = avg, y = diff)) +
   theme(plot.title = element_text(size = 12))
 
 
-pdf("ba_plots.pdf", onefile = TRUE, width = 8, height = 8)
+png("ba_plots.png", width = 600, height = 600)
 gridExtra::grid.arrange(g_light, g_mod, g_vig, g_vervig)
 dev.off()
 
@@ -272,10 +272,10 @@ g_vervig_s <- ggplot(ba_vervig3_s, aes(x = avg, y = diff)) +
   geom_hline(yintercept = upper, color = "red", linetype="dashed") +
   ggtitle("Bland-Altman Plot - Very Vigorous Activity(Scaled)") +
   ylab("Difference Between Measurements") + xlab("Average Measurement") + 
-  theme(plot.title = element_text(size = 11))
+  theme(plot.title = element_text(size = 12))
 
 
-pdf("ba_plots_scaled.pdf", onefile = TRUE, width = 8, height = 8)
+png("ba_plots_scaled.png", width = 600, height = 600)
 gridExtra::grid.arrange(g_light_s, g_mod_s, g_vig_s, g_vervig_s)
 dev.off()
 
