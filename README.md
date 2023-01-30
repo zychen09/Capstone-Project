@@ -1,5 +1,11 @@
 # BIOST597
 
+
+## Links
+
+- Google Drive: https://drive.google.com/drive/folders/1lyzS7L35dxABr2pbQOySnxzgnYwza3b3?usp=share_link
+- Overleaf: https://www.overleaf.com/9982132252kjnwxvhjcthv
+
 ## variables for analysis (`Y1 dataset contents.xlsx`)
 
 - ss1, ss2, ss3, ss4, ss5 (LRCQ response)
