@@ -106,3 +106,7 @@ rownames(test_matched) <- test_matched$record_id
 comb_df <- merge(lrcq_matched, test_matched, by = 'row.names')
 rownames(comb_df) <- comb_df$Row.names
 comb_df <- comb_df[,-1]
+colnames(comb_df)[1:10] <- c("Study ID", "Substudy Class", "Ss1","Ss2","Ss3","Ss4","Ss5",
+                             "Completed substudy", "Valid result", "Test completed date")
+saveRDS(comb_df, "data/matched_cohort_subset.rds")
+
